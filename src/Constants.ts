@@ -167,6 +167,10 @@ export const CONSTANTS: {
 - There was a small API change related to Bladeburner. If your save file is affected by the API change, a file APIBreakInfo-2.6.1.txt will be created on your home computer, which should assist in updating your scripts.
 - Some Go scripts may also require updates, please reference the current documentation to troubleshoot any issues.
 
+### HOTFIXES
+
+- 2 June 2024: Fixed an invalid format issue with Steam cloud saves (@catloversg)
+
 ### API
 
 - (Bladeburner) !API Break! ns.bladeburner.getCurrentAction now returns null when not performing an action (@Snarling)
